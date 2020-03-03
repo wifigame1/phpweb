@@ -11,7 +11,7 @@
     
         <?php
             
-            require_once('connect.php');
+            require_once('connection\connect.php');
 
             $sql = "insert into member 
                         (name ,lastname, username, email,address1 ,address2)
